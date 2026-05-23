@@ -1,0 +1,19 @@
+package Ch09;
+
+public class MethodReturns {
+	public static int adder(int num1, int num2) {
+		int addResult = num1 + num2;
+		return addResult;
+	}
+
+	public static double square(double num) {
+		return num * num;
+	}
+
+	public static void main(String[] args) {
+		int result = 0;
+
+		adder(3, 5);
+		square(8);
+	}
+}
